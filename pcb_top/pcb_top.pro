@@ -1,4 +1,4 @@
-update=Do 25 Mai 2017 18:08:59 CEST
+update=Mi 31 Mai 2017 05:38:45 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,19 +25,9 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
-LibDir=/home/jan/kicad_sources/esp8266/kicad-ESP8266;/home/jan/kicad_sources/library-repos/kicad-library;/home/jan/kicad_sources/library-repos/kicad-library/library
+LibDir=/home/jan/kicad_sources/esp8266/kicad-ESP8266;/home/jan/kicad_sources/library-repos/kicad-library;/home/jan/kicad_sources/library-repos/kicad-library/library;/home/jan/kicad_sources/kicad-gigalib/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -69,3 +59,19 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=ESP8266
+LibName31=switches
+LibName32=w_analog
+LibName33=w_device
+LibName34=w_logic
+LibName35=w_microcontrollers
+LibName36=w_power
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
