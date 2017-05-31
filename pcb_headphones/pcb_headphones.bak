@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:w_analog
+LIBS:pcb_headphones-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -635,30 +636,18 @@ F 3 "" H 6900 4950 50  0001 C CNN
 	1    6900 4950
 	-1   0    0    1   
 $EndComp
-Text GLabel 7350 4800 2    60   Input ~ 0
+Text GLabel 7350 4850 2    60   Input ~ 0
 L_out
-Text GLabel 7350 4950 2    60   Input ~ 0
+Text GLabel 7350 5050 2    60   Input ~ 0
 R_out
-Text GLabel 7350 4150 2    60   Input ~ 0
+Text GLabel 7350 4200 2    60   Input ~ 0
 L_out
-Text GLabel 7350 4300 2    60   Input ~ 0
+Text GLabel 7350 4400 2    60   Input ~ 0
 R_out
 Wire Wire Line
-	7350 4300 7100 4300
+	7100 4200 7350 4200
 Wire Wire Line
-	7100 4200 7200 4200
-Wire Wire Line
-	7200 4200 7200 4150
-Wire Wire Line
-	7200 4150 7350 4150
-Wire Wire Line
-	7100 4850 7200 4850
-Wire Wire Line
-	7200 4850 7200 4800
-Wire Wire Line
-	7200 4800 7350 4800
-Wire Wire Line
-	7350 4950 7100 4950
+	7100 4850 7350 4850
 $Comp
 L GND #PWR07
 U 1 1 592EC26B
@@ -682,40 +671,28 @@ F 3 "" H 7200 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 4500 7200 4400
+	7200 4300 7200 4500
 Wire Wire Line
-	7200 4400 7100 4400
-Wire Wire Line
-	7200 5150 7200 5050
-Wire Wire Line
-	7200 5050 7100 5050
+	7200 4950 7200 5150
 $Comp
 L GND #PWR09
 U 1 1 592EC422
-P 7200 3800
-F 0 "#PWR09" H 7200 3550 50  0001 C CNN
-F 1 "GND" H 7200 3650 50  0000 C CNN
-F 2 "" H 7200 3800 50  0001 C CNN
-F 3 "" H 7200 3800 50  0001 C CNN
-	1    7200 3800
+P 7200 3850
+F 0 "#PWR09" H 7200 3600 50  0001 C CNN
+F 1 "GND" H 7200 3700 50  0000 C CNN
+F 2 "" H 7200 3850 50  0001 C CNN
+F 3 "" H 7200 3850 50  0001 C CNN
+	1    7200 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 3750 7200 3750
-Wire Wire Line
-	7200 3750 7200 3800
-Text GLabel 7350 3500 2    60   Input ~ 0
+	7200 3650 7200 3850
+Text GLabel 7350 3550 2    60   Input ~ 0
 L_in
-Text GLabel 7350 3650 2    60   Input ~ 0
+Text GLabel 7350 3750 2    60   Input ~ 0
 R_in
 Wire Wire Line
-	7350 3650 7100 3650
-Wire Wire Line
-	7100 3550 7200 3550
-Wire Wire Line
-	7200 3550 7200 3500
-Wire Wire Line
-	7200 3500 7350 3500
+	7100 3550 7350 3550
 $Comp
 L CONN_01X02 J4
 U 1 1 592ECEC0
@@ -781,4 +758,16 @@ Wire Wire Line
 	9750 3100 9750 3200
 Connection ~ 9750 3200
 Connection ~ 9350 3300
+Wire Wire Line
+	7100 4950 7200 4950
+Wire Wire Line
+	7100 3650 7200 3650
+Wire Wire Line
+	7350 3750 7100 3750
+Wire Wire Line
+	7350 5050 7100 5050
+Wire Wire Line
+	7200 4300 7100 4300
+Wire Wire Line
+	7350 4400 7100 4400
 $EndSCHEMATC
